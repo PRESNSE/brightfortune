@@ -1,7 +1,17 @@
 # Bright Fortune — implementation handoff
 Version 2.0 · 12 October 2026 · English-language draft
 
-This is a repository-ready implementation specification, content and asset pack. It is not an already-built Next.js website. All 21 intended content routes are specified and supplied with content. Claude implements the application using these files.
+This repository holds the implementation pack **and** the built Next.js (App Router, TypeScript, native CSS) draft site that implements it. All 21 content routes are implemented from the supplied content.
+
+## Run the site
+```bash
+nvm use            # Node 22
+npm ci
+npm run dev        # http://localhost:3000 (private preview defaults)
+npm run build && npm start
+npm run typecheck
+```
+Default = private preview: `noindex` (meta + `X-Robots-Tag`), empty sitemap, no JSON-LD, form validates locally and states nothing is sent. Public mode is controlled by `SITE_MODE`/`SITE_URL` **at build time** plus every approval in `content/launch-config.json` (see `.env.example`, `QA_REPORT.md`). QA: `npm run qa:serve` (builds and starts 3 test servers), then `npm run qa:checks` and `npm run qa:ui`.
 
 ## Use in GitHub / Claude web
 1. Extract this ZIP on your computer. Upload the **contents** of `bright-fortune-implementation-pack` to the root of your GitHub repository. Uploading the unopened ZIP does not expose its files to Claude. Preserve folders. For an existing application, put this pack in `implementation-pack/` and tell Claude that path; merge CLAUDE.md instructions without overwriting existing project instructions.
@@ -37,3 +47,12 @@ The content fills service gaps with original, useful explanations and concrete e
 
 ## Preview and public release
 Default: private preview, noindex, no live form submission, full draft copy. Public release requires a confirmed canonical domain, contact information, regulatory statement, privacy/legal review, approved assets and a tested contact route. These are finite factual/configuration inputs, not another website-planning exercise. Off-page listings, earned links and Search Console ownership require account work after implementation.
+
+## Token-efficient session habits
+- Start each session by reading `PROGRESS.md` (if present), then only the files `CLAUDE.md` lists for the current stage; skip `references/` and appendices unless a task needs them.
+- Build in the order of `docs/BUILD_SEQUENCE.md`; finish a stage, run its focused check, update `PROGRESS.md` (files touched, checks run, next command), then commit.
+- Read files by range or grep rather than whole-file dumps; never re-read a file you just edited.
+- Batch independent tool calls; use `scripts/validate-pack.py` and one `build`/`lint`/`typecheck` run per stage, not per edit.
+- Reuse `starter/` selectors and `content/*.json` instead of re-deriving data; do not repeat research or competitor crawling.
+- Keep chat replies short: report outcomes and the next command, not file contents.
+- Start a fresh session between major stages; `PROGRESS.md` carries the state.
