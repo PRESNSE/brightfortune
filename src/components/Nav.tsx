@@ -65,8 +65,8 @@ export function Nav({ services, contactHref }: Props) {
 
   const cur = (href: string) => (pathname === href || (href !== '/' && pathname.startsWith(href + '/')) ? 'page' : undefined);
 
-  const Item = ({ id, label, href }: { id: Exclude<Panel, null>; label: string; href: string }) => (
-    <div className="nav-item" onMouseEnter={() => hoverOpen(id)} onMouseLeave={hoverClose}>
+  const item = (id: Exclude<Panel, null>, label: string, href: string) => (
+    <div key={id} className="nav-item" onMouseEnter={() => hoverOpen(id)} onMouseLeave={hoverClose}>
       <Link href={href} className="nav-link" aria-current={cur(href)}>{label}</Link>
       <button
         type="button" className="disclose" ref={(el) => { triggerRefs.current[id] = el; }}
@@ -80,8 +80,8 @@ export function Nav({ services, contactHref }: Props) {
     <>
       <nav className="nav-desktop" aria-label="Primary" ref={navRef} onMouseEnter={clearTimer} onMouseLeave={hoverClose}>
         <Link href="/who-we-are" className="nav-link" aria-current={cur('/who-we-are')}>Who we are</Link>
-        <Item id="services" label="What we do" href="/what-we-do" />
-        <Item id="resources" label="Insights & Resources" href="/insights" />
+        {item('services', 'What we do', '/what-we-do')}
+        {item('resources', 'Insights & Resources', '/insights')}
         <Link href="/claims" className="nav-link" aria-current={cur('/claims')}>Claims</Link>
         <Link href={contactHref} className="pill nav-cta" aria-current={cur('/contact')}>Speak with us</Link>
 

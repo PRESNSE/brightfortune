@@ -1,7 +1,17 @@
 # Bright Fortune — implementation handoff
 Version 2.0 · 12 October 2026 · English-language draft
 
-This is a repository-ready implementation specification, content and asset pack. It is not an already-built Next.js website. All 21 intended content routes are specified and supplied with content. Claude implements the application using these files.
+This repository holds the implementation pack **and** the built Next.js (App Router, TypeScript, native CSS) draft site that implements it. All 21 content routes are implemented from the supplied content.
+
+## Run the site
+```bash
+nvm use            # Node 22
+npm ci
+npm run dev        # http://localhost:3000 (private preview defaults)
+npm run build && npm start
+npm run typecheck
+```
+Default = private preview: `noindex` (meta + `X-Robots-Tag`), empty sitemap, no JSON-LD, form validates locally and states nothing is sent. Public mode is controlled by `SITE_MODE`/`SITE_URL` **at build time** plus every approval in `content/launch-config.json` (see `.env.example`, `QA_REPORT.md`). QA: `npm run qa:serve` (builds and starts 3 test servers), then `npm run qa:checks` and `npm run qa:ui`.
 
 ## Use in GitHub / Claude web
 1. Extract this ZIP on your computer. Upload the **contents** of `bright-fortune-implementation-pack` to the root of your GitHub repository. Uploading the unopened ZIP does not expose its files to Claude. Preserve folders. For an existing application, put this pack in `implementation-pack/` and tell Claude that path; merge CLAUDE.md instructions without overwriting existing project instructions.

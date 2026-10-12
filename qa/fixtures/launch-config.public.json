@@ -1,0 +1,51 @@
+{
+  "mode": "public",
+  "canonicalOrigin": "https://example.test",
+  "companyIdentityApproved": true,
+  "historyApproved": true,
+  "copyApproved": true,
+  "articlesApproved": true,
+  "assetsApproved": true,
+  "legalApproved": true,
+  "regulatoryApproved": true,
+  "contactApproved": true,
+  "publicationDate": null,
+  "regulatoryStatement": "TEST FIXTURE ONLY \u2014 not a real regulatory statement.",
+  "licenceNumber": null,
+  "licenceBusinessLines": [],
+  "legalReviewNotes": "Replace the explicit review paragraphs in legal drafts with verified statements before setting legalApproved. Do not simply hide the draft badge.",
+  "contact": {
+    "phone": "+852 2314 9292",
+    "email": "test@example.test",
+    "address": "Room 1621\u201324, Beverley Commercial Centre, 87\u2013105 Chatham Road, Tsim Sha Tsui, Kowloon, Hong Kong",
+    "sourceStatus": "provisional-directory-and-uploaded-blueprint",
+    "privacyContactNameOrRole": null,
+    "privacyEmailOrPostalChannel": null,
+    "complaintsContactNameOrRole": null,
+    "hours": null
+  },
+  "form": {
+    "mode": "preview",
+    "provider": null,
+    "transportTestPassed": false,
+    "contactOnlyFallback": false,
+    "retentionPolicyApproved": false,
+    "rateLimitConfigured": false
+  },
+  "brand": {
+    "wordmark": "/images/wordmark.svg",
+    "officialLogoProvided": false,
+    "draftWordmarkApprovedForLaunch": true
+  },
+  "optionalMarineSubclasses": {
+    "cargo": false,
+    "hull": false,
+    "marineLiability": false
+  },
+  "tracking": {
+    "analyticsEnabled": false,
+    "advertisingEnabled": false
+  },
+  "approvalEvidence": {},
+  "_note": "TEST FIXTURE ONLY. Never copy approvals into content/launch-config.json."
+}

@@ -10,3 +10,4 @@ test-results/
 next-env.d.ts
 *.tsbuildinfo
 qa/output/
+.next-public/

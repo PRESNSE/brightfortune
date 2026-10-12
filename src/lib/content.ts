@@ -46,7 +46,13 @@ function parseMarkdown(rel: string): { body: string; headings: Heading[] } {
   }
   return { body, headings };
 }
-export const getArticleBody = (a: Article) => parseMarkdown(a.bodyFile);
+export function getArticleBody(a: Article) {
+  const r = parseMarkdown(a.bodyFile);
+  // The hero already shows the summary; drop the duplicate lead paragraph.
+  const first = r.body.split('\n\n')[0].trim();
+  if (first === a.summary.trim()) r.body = r.body.slice(first.length).trim();
+  return r;
+}
 export const getLegalBody = (id: string) => parseMarkdown(`content/legal/${id}.md`);
 
 /** Minutes derived from the actual text (average 220 wpm), falling back to the supplied value. */
