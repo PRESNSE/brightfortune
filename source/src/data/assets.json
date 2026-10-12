@@ -1,0 +1,58 @@
+{
+  "harbour": {
+    "alt": "Hong Kong skyline and harbour",
+    "focalPoint": "50% 50%",
+    "card": "/images/harbour-800.webp",
+    "mobile": "/images/harbour-480.webp",
+    "hero": "/images/harbour-1600.webp"
+  },
+  "architecture": {
+    "alt": "Modern high-rise architecture viewed from below",
+    "focalPoint": "50% 45%",
+    "card": "/images/architecture-800.webp",
+    "mobile": "/images/architecture-480.webp",
+    "hero": "/images/architecture-1600.webp"
+  },
+  "marine": {
+    "alt": "Container vessel and port cranes",
+    "focalPoint": "50% 50%",
+    "card": "/images/marine-800.webp",
+    "mobile": "/images/marine-480.webp",
+    "hero": "/images/marine-1600.webp"
+  },
+  "workplace": {
+    "alt": "Contemporary workspace with tables and natural light",
+    "focalPoint": "50% 50%",
+    "card": "/images/workplace-800.webp",
+    "mobile": "/images/workplace-480.webp",
+    "hero": "/images/workplace-1600.webp"
+  },
+  "life": {
+    "alt": "People standing together on a beach at sunset",
+    "focalPoint": "50% 65%",
+    "card": "/images/life-800.webp",
+    "mobile": "/images/life-480.webp",
+    "hero": "/images/life-1600.webp"
+  },
+  "health": {
+    "alt": "Stethoscope resting on a light surface",
+    "focalPoint": "50% 55%",
+    "card": "/images/health-800.webp",
+    "mobile": "/images/health-480.webp",
+    "hero": "/images/health-1600.webp"
+  },
+  "collaboration": {
+    "alt": "People working together around a table",
+    "focalPoint": "46% 50%",
+    "card": "/images/collaboration-800.webp",
+    "mobile": "/images/collaboration-480.webp",
+    "hero": "/images/collaboration-1600.webp"
+  },
+  "conversation": {
+    "alt": "Two people in conversation over a laptop",
+    "focalPoint": "46% 45%",
+    "card": "/images/conversation-800.webp",
+    "mobile": "/images/conversation-480.webp",
+    "hero": "/images/conversation-1600.webp"
+  }
+}

@@ -1,0 +1,184 @@
+[
+  {
+    "path": "/",
+    "template": "home",
+    "title": "Hong Kong Insurance Broker | Bright Fortune",
+    "description": "Explore insurance for business, property, marine, life, medical and dental needs with Bright Fortune (Far East) Limited in Hong Kong.",
+    "intent": "Hong Kong insurance broker",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/who-we-are",
+    "template": "about",
+    "title": "About Bright Fortune | Hong Kong Insurance Broking",
+    "description": "Learn about Bright Fortune, founded in Hong Kong in 1995, and its approach to business and personal insurance enquiries.",
+    "intent": "Bright Fortune insurance",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/what-we-do",
+    "template": "hub",
+    "title": "Insurance Services Hong Kong | Bright Fortune",
+    "description": "Explore Bright Fortune’s general, property, fire, marine, life, medical and dental insurance services in Hong Kong.",
+    "intent": "insurance services Hong Kong",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/claims",
+    "template": "claims",
+    "title": "Insurance Claims Support | Bright Fortune Hong Kong",
+    "description": "Prepare an initial claims enquiry, find out which information to keep and follow the reporting instructions in your insurance policy.",
+    "intent": "Bright Fortune claims",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/contact",
+    "template": "contact",
+    "title": "Contact Bright Fortune | Hong Kong Insurance Broker",
+    "description": "Discuss your insurance questions with Bright Fortune. Enquire about business, property, marine, life, medical, dental or claims matters.",
+    "intent": "contact Bright Fortune",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/resources",
+    "template": "resources",
+    "title": "Insurance Guides & Resources | Bright Fortune",
+    "description": "Read practical guides on property, marine, life and medical insurance, plus a checklist for preparing an insurance claim.",
+    "intent": "insurance guides Hong Kong",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/insights",
+    "template": "insights",
+    "title": "Insurance Insights | Bright Fortune",
+    "description": "Explore clear introductions to common insurance questions and connect each topic to Bright Fortune’s relevant services.",
+    "intent": "insurance explanations",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/what-we-do/commercial-general",
+    "template": "service",
+    "contentId": "commercial-general",
+    "title": "Commercial & General Insurance Hong Kong | Bright Fortune",
+    "description": "Practical insurance conversations for business and everyday exposures. Discuss relevant options, terms and policy conditions with Bright Fortune in Hong Kong.",
+    "intent": "commercial & general insurance Hong Kong",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/what-we-do/property-fire",
+    "template": "service",
+    "contentId": "property-fire",
+    "title": "Property & Fire Insurance Hong Kong | Bright Fortune",
+    "description": "Consider the cover behind the buildings, contents and assets that matter to you. Discuss relevant options, terms and policy conditions with Bright Fortune in Hong Kong.",
+    "intent": "property & fire insurance Hong Kong",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/what-we-do/marine",
+    "template": "service",
+    "contentId": "marine",
+    "title": "Marine Insurance Hong Kong | Bright Fortune",
+    "description": "Insurance discussions shaped around the marine interest, movement and responsibilities involved. Discuss relevant options, terms and policy conditions with Bright Fortune in Hong Kong.",
+    "intent": "marine insurance Hong Kong",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/what-we-do/life-protection",
+    "template": "service",
+    "contentId": "life-protection",
+    "title": "Life & Protection Insurance Hong Kong | Bright Fortune",
+    "description": "Understand the structures behind protection for family, income and changing responsibilities. Discuss relevant options, terms and policy conditions with Bright Fortune in Hong Kong.",
+    "intent": "life & protection insurance Hong Kong",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/what-we-do/medical-dental",
+    "template": "service",
+    "contentId": "medical-dental",
+    "title": "Medical & Dental Insurance Hong Kong | Bright Fortune",
+    "description": "Compare health cover with a clearer view of benefits, limits and conditions. Discuss relevant options, terms and policy conditions with Bright Fortune in Hong Kong.",
+    "intent": "medical & dental insurance Hong Kong",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/insights/property-all-risks",
+    "template": "article",
+    "contentId": "property-all-risks",
+    "title": "Understanding Property All Risks | Bright Fortune",
+    "description": "“All risks” is a starting point for reading the wording, not a promise that every loss is insured. Read Bright Fortune’s practical introductory guide.",
+    "intent": "Understanding Property All Risks",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/insights/marine-insurance-questions",
+    "template": "article",
+    "contentId": "marine-insurance-questions",
+    "title": "Marine Insurance Questions | Bright Fortune",
+    "description": "Begin with the insured interest, journey and responsibilities before discussing a marine policy. Read Bright Fortune’s practical introductory guide.",
+    "intent": "Marine Insurance: Questions to Ask Before Arranging Cover",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/insights/term-vs-whole-life",
+    "template": "article",
+    "contentId": "term-vs-whole-life",
+    "title": "Term Life vs Whole of Life | Bright Fortune",
+    "description": "Compare the purpose, duration and policy structure before focusing on a product name. Read Bright Fortune’s practical introductory guide.",
+    "intent": "Term Life and Whole of Life: Understanding the Difference",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/insights/preparing-for-a-claim",
+    "template": "article",
+    "contentId": "preparing-for-a-claim",
+    "title": "Preparing for an Insurance Claim | Bright Fortune",
+    "description": "A practical checklist for keeping the policy, event details and supporting information together. Read Bright Fortune’s practical introductory guide.",
+    "intent": "Preparing for an Insurance Claim",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/insights/medical-limits-exclusions",
+    "template": "article",
+    "contentId": "medical-limits-exclusions",
+    "title": "Medical Insurance Limits & Exclusions | Bright Fortune",
+    "description": "Look beyond a headline benefit amount to understand how medical cover may operate. Read Bright Fortune’s practical introductory guide.",
+    "intent": "Understanding Medical Insurance Limits and Exclusions",
+    "indexAfterApproval": true
+  },
+  {
+    "path": "/privacy",
+    "template": "legal",
+    "contentId": "privacy",
+    "title": "Privacy notice | Bright Fortune",
+    "description": "Privacy notice for the Bright Fortune (Far East) Limited website.",
+    "intent": "legal / navigational",
+    "indexAfterApproval": false
+  },
+  {
+    "path": "/terms",
+    "template": "legal",
+    "contentId": "terms",
+    "title": "Website terms | Bright Fortune",
+    "description": "Website terms for the Bright Fortune (Far East) Limited website.",
+    "intent": "legal / navigational",
+    "indexAfterApproval": false
+  },
+  {
+    "path": "/regulation-and-complaints",
+    "template": "legal",
+    "contentId": "regulation-and-complaints",
+    "title": "Regulation & Complaints | Bright Fortune",
+    "description": "Regulation & Complaints for the Bright Fortune (Far East) Limited website.",
+    "intent": "legal / navigational",
+    "indexAfterApproval": false
+  },
+  {
+    "path": "/cookies",
+    "template": "legal",
+    "contentId": "cookies",
+    "title": "Cookies and website storage | Bright Fortune",
+    "description": "Cookies and website storage for the Bright Fortune (Far East) Limited website.",
+    "intent": "legal / navigational",
+    "indexAfterApproval": false
+  }
+]

@@ -1,0 +1,421 @@
+{
+  "home": [
+    {
+      "id": "H01",
+      "component": "HomeHero",
+      "content": "home.hero",
+      "layout": "triptych",
+      "asset": "harbour,architecture,workplace"
+    },
+    {
+      "id": "H02",
+      "component": "EditorialSplit",
+      "content": "home.intro",
+      "layout": "capsule-left",
+      "asset": "workplace"
+    },
+    {
+      "id": "H03",
+      "component": "FactTiles",
+      "content": "home.facts",
+      "layout": "coloured-3-plus-2",
+      "asset": ""
+    },
+    {
+      "id": "H04",
+      "component": "EditorialSplit",
+      "content": "home.statement",
+      "layout": "image-right",
+      "asset": "architecture"
+    },
+    {
+      "id": "H05",
+      "component": "LocationPanel",
+      "content": "home.location",
+      "layout": "image-left",
+      "asset": "harbour"
+    },
+    {
+      "id": "H06",
+      "component": "SectionIntro",
+      "content": "home.solutionsIntro",
+      "layout": "text-left",
+      "asset": ""
+    },
+    {
+      "id": "H07",
+      "component": "NumberedSolutions",
+      "content": "home.numberedCards",
+      "layout": "3-columns",
+      "asset": ""
+    },
+    {
+      "id": "H08",
+      "component": "ExpertiseMarquee",
+      "content": "home.marquee",
+      "layout": "navy",
+      "asset": ""
+    },
+    {
+      "id": "H09",
+      "component": "DiscoverGrid",
+      "content": "home.discover",
+      "layout": "2-by-2",
+      "asset": ""
+    },
+    {
+      "id": "H10",
+      "component": "GuideCards",
+      "content": "home.resourceIds",
+      "layout": "3-columns",
+      "asset": ""
+    }
+  ],
+  "about": [
+    {
+      "id": "A01",
+      "component": "ImageHero",
+      "content": "about.hero",
+      "layout": "full-image",
+      "asset": "harbour"
+    },
+    {
+      "id": "A02",
+      "component": "EditorialSplit",
+      "content": "about.story",
+      "layout": "image-left",
+      "asset": "workplace"
+    },
+    {
+      "id": "A03",
+      "component": "Timeline",
+      "content": "about.timeline",
+      "layout": "3-columns",
+      "asset": ""
+    },
+    {
+      "id": "A04",
+      "component": "NumberedValues",
+      "content": "about.values",
+      "layout": "alternating",
+      "asset": "architecture"
+    },
+    {
+      "id": "A05",
+      "component": "FounderFeature",
+      "content": "about.founder",
+      "layout": "text-only-no-fake-portrait",
+      "asset": ""
+    },
+    {
+      "id": "A06",
+      "component": "ContactCTA",
+      "content": "about.closing",
+      "layout": "navy",
+      "asset": ""
+    }
+  ],
+  "hub": [
+    {
+      "id": "W01",
+      "component": "ServiceHero",
+      "content": "hub.hero",
+      "layout": "split",
+      "asset": "architecture"
+    },
+    {
+      "id": "W02",
+      "component": "EditorialSplit",
+      "content": "hub.intro",
+      "layout": "image-left",
+      "asset": "workplace"
+    },
+    {
+      "id": "W03",
+      "component": "ServiceGrid",
+      "content": "services",
+      "layout": "3-plus-2",
+      "asset": ""
+    },
+    {
+      "id": "W04",
+      "component": "EditorialSplit",
+      "content": "hub.connected",
+      "layout": "image-right",
+      "asset": "harbour"
+    },
+    {
+      "id": "W05",
+      "component": "ClaimsPromo",
+      "content": "shared.claimsPromo",
+      "layout": "pale",
+      "asset": ""
+    },
+    {
+      "id": "W06",
+      "component": "ContactCTA",
+      "content": "shared.cta",
+      "layout": "navy",
+      "asset": ""
+    }
+  ],
+  "service": [
+    {
+      "id": "S01",
+      "component": "ServiceHero",
+      "content": "service.title+summary",
+      "layout": "split",
+      "asset": "service.assetId"
+    },
+    {
+      "id": "S02",
+      "component": "EditorialIntro",
+      "content": "service.introHeading+introBody",
+      "layout": "text-two-columns",
+      "asset": ""
+    },
+    {
+      "id": "S03",
+      "component": "AudienceList",
+      "content": "service.audience",
+      "layout": "3-columns",
+      "asset": ""
+    },
+    {
+      "id": "S04",
+      "component": "ConsiderationGrid",
+      "content": "service.coverages",
+      "layout": "2-columns",
+      "asset": ""
+    },
+    {
+      "id": "S05",
+      "component": "WhyUs",
+      "content": "shared.whyPoints",
+      "layout": "navy",
+      "asset": ""
+    },
+    {
+      "id": "S06",
+      "component": "ConsiderationGrid",
+      "content": "service.considerations",
+      "layout": "2-columns",
+      "asset": ""
+    },
+    {
+      "id": "S07",
+      "component": "ProcessSteps",
+      "content": "shared.process",
+      "layout": "numbered",
+      "asset": ""
+    },
+    {
+      "id": "S08",
+      "component": "FAQ",
+      "content": "service.faqs",
+      "layout": "wide-hairlines",
+      "asset": ""
+    },
+    {
+      "id": "S09",
+      "component": "RelatedServices",
+      "content": "service.related",
+      "layout": "2-columns",
+      "asset": ""
+    },
+    {
+      "id": "S10",
+      "component": "ClaimsPromo",
+      "content": "shared.claimsPromo",
+      "layout": "pale",
+      "asset": ""
+    },
+    {
+      "id": "S11",
+      "component": "GuideCards",
+      "content": "service.resourceIds",
+      "layout": "2-columns",
+      "asset": ""
+    },
+    {
+      "id": "S12",
+      "component": "ContactCTA",
+      "content": "shared.cta",
+      "layout": "navy",
+      "asset": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "CL01",
+      "component": "ServiceHero",
+      "content": "claims.hero",
+      "layout": "split",
+      "asset": "workplace"
+    },
+    {
+      "id": "CL02",
+      "component": "EditorialIntro",
+      "content": "claims.intro",
+      "layout": "text",
+      "asset": ""
+    },
+    {
+      "id": "CL03",
+      "component": "ProcessSteps",
+      "content": "claims.steps",
+      "layout": "numbered",
+      "asset": ""
+    },
+    {
+      "id": "CL04",
+      "component": "Checklist",
+      "content": "claims.prepare",
+      "layout": "pale",
+      "asset": ""
+    },
+    {
+      "id": "CL05",
+      "component": "FAQ",
+      "content": "claims.faqs",
+      "layout": "wide-hairlines",
+      "asset": ""
+    },
+    {
+      "id": "CL06",
+      "component": "GuideCards",
+      "content": "preparing-for-a-claim",
+      "layout": "1-feature",
+      "asset": ""
+    },
+    {
+      "id": "CL07",
+      "component": "ContactCTA",
+      "content": "shared.cta",
+      "layout": "topic-claims",
+      "asset": ""
+    }
+  ],
+  "contact": [
+    {
+      "id": "CT01",
+      "component": "TextHero",
+      "content": "contact.hero",
+      "layout": "pale",
+      "asset": ""
+    },
+    {
+      "id": "CT02",
+      "component": "ContactForm",
+      "content": "contact",
+      "layout": "two-thirds",
+      "asset": "workplace"
+    },
+    {
+      "id": "CT03",
+      "component": "LocationPanel",
+      "content": "contact.officeHeading+officeBody",
+      "layout": "approved-contact",
+      "asset": "harbour"
+    }
+  ],
+  "resources": [
+    {
+      "id": "R01",
+      "component": "TextHero",
+      "content": "resources",
+      "layout": "pale",
+      "asset": ""
+    },
+    {
+      "id": "R02",
+      "component": "ResourceFilter",
+      "content": "article-index",
+      "layout": "inline-tabs",
+      "asset": ""
+    },
+    {
+      "id": "R03",
+      "component": "GuideCards",
+      "content": "article-index",
+      "layout": "3-plus-2",
+      "asset": ""
+    }
+  ],
+  "insights": [
+    {
+      "id": "I01",
+      "component": "TextHero",
+      "content": "insights",
+      "layout": "pale",
+      "asset": ""
+    },
+    {
+      "id": "I02",
+      "component": "FeaturedGuide",
+      "content": "insights.featuredId",
+      "layout": "split",
+      "asset": "architecture"
+    },
+    {
+      "id": "I03",
+      "component": "GuideCards",
+      "content": "remaining-articles",
+      "layout": "2-by-2",
+      "asset": ""
+    }
+  ],
+  "article": [
+    {
+      "id": "D01",
+      "component": "ArticleHero",
+      "content": "article-index",
+      "layout": "wide-title",
+      "asset": "article.assetId"
+    },
+    {
+      "id": "D02",
+      "component": "ArticleTOC",
+      "content": "article-headings",
+      "layout": "desktop-sticky",
+      "asset": ""
+    },
+    {
+      "id": "D03",
+      "component": "MarkdownBody",
+      "content": "article.bodyFile",
+      "layout": "760px",
+      "asset": ""
+    },
+    {
+      "id": "D04",
+      "component": "ServiceLink",
+      "content": "article.relatedServiceHref",
+      "layout": "navy",
+      "asset": ""
+    },
+    {
+      "id": "D05",
+      "component": "GuideCards",
+      "content": "related-by-category-then-order",
+      "layout": "2-columns",
+      "asset": ""
+    }
+  ],
+  "legal": [
+    {
+      "id": "L01",
+      "component": "TextHero",
+      "content": "legal-title",
+      "layout": "compact",
+      "asset": ""
+    },
+    {
+      "id": "L02",
+      "component": "MarkdownBody",
+      "content": "legal-file",
+      "layout": "760px",
+      "asset": ""
+    }
+  ]
+}

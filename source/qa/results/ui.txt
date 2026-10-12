@@ -1,0 +1,36 @@
+PASS  desktop: disclosure opens (aria-expanded)
+PASS  desktop: What we do link separate from disclosure button
+PASS  desktop: Escape closes + focus returns
+PASS  desktop: outside click closes
+PASS  desktop: route change closes panel
+PASS  mobile: panel opens, main inert, scroll locked
+PASS  mobile: focus moved into panel
+PASS  mobile: subgroup expands (aria-expanded)
+PASS  mobile: Escape closes, lock removed, focus restored
+PASS  mobile: resize to desktop clears modal state
+PASS  mobile: route change closes + unlocks
+PASS  resources: 5 guides by default
+PASS  resources: no Commercial filter
+PASS  resources: Marine filter -> 1 guide, aria-pressed, URL — Showing 1 guide in Marine.
+PASS  resources: unknown category -> All
+PASS  resources: ?category=claims server-initial filter
+PASS  FAQ: native details, multiple open
+PASS  marquee: Pause button pauses animation
+PASS  reduced motion: marquee animation off, pause hidden
+PASS  contact: topic prefill marine
+PASS  contact: unknown topic -> other (no injection)
+PASS  contact: invalid submit shows summary, focused
+PASS  contact: field errors linked via aria-describedby
+PASS  contact: summary link focuses field
+PASS  contact preview: truthful message, no API call, values kept
+PASS  contact live: claims urgent notice shown
+PASS  contact live: failure keeps values, no success
+PASS  contact live: uncertain wording, no success
+PASS  contact live: success only after 200, reference shown, message cleared
+PASS  no-JS: content, FAQ answers and nav links present
+PASS  no horizontal overflow @320px on 10 representative routes
+PASS  no horizontal overflow @375px on 10 representative routes
+PASS  no horizontal overflow @768px on 10 representative routes
+PASS  no horizontal overflow @1440px on 10 representative routes
+
+all UI checks passed

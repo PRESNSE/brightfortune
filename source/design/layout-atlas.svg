@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2250" viewBox="0 0 1800 2250">
+<rect width="1800" height="2250" fill="#e6e8eb"/>
+<style>text{font-family:Arial,sans-serif;fill:#213752}.title{font-size:24px;font-weight:600}.module{font-size:16px}.small{font-size:13px}</style>
+<text x="40" y="44" class="title">Bright Fortune · layout atlas</text>
+<text x="40" y="75" class="small">Module order across ten templates · not to scale · all pages also receive the shared header and footer</text>
+<rect x="40" y="110" width="320" height="1000" fill="white"/>
+<text x="56" y="144" class="title">Home</text>
+<rect x="52" y="165" width="296" height="30" fill="#eeeeee"/>
+<text x="62" y="185" class="small">Shared navigation</text>
+<rect x="52" y="210" width="296" height="72" fill="#9db7d4"/>
+<text x="62" y="233" class="module" style="fill:#213752">H01 · HomeHero</text>
+<text x="62" y="253" class="small" style="fill:#213752">triptych</text>
+<rect x="52" y="292" width="296" height="72" fill="#f4f4f4"/>
+<text x="62" y="315" class="module" style="fill:#213752">H02 · EditorialSplit</text>
+<text x="62" y="335" class="small" style="fill:#213752">capsule-left</text>
+<rect x="52" y="374" width="296" height="72" fill="#f4f4f4"/>
+<text x="62" y="397" class="module" style="fill:#213752">H03 · FactTiles</text>
+<text x="62" y="417" class="small" style="fill:#213752">coloured-3-plus-2</text>
+<rect x="52" y="456" width="296" height="72" fill="#f4f4f4"/>
+<text x="62" y="479" class="module" style="fill:#213752">H04 · EditorialSplit</text>
+<text x="62" y="499" class="small" style="fill:#213752">image-right</text>
+<rect x="52" y="538" width="296" height="72" fill="#f4f4f4"/>
+<text x="62" y="561" class="module" style="fill:#213752">H05 · LocationPanel</text>
+<text x="62" y="581" class="small" style="fill:#213752">image-left</text>
+<rect x="52" y="620" width="296" height="72" fill="#f4f4f4"/>
+<text x="62" y="643" class="module" style="fill:#213752">H06 · SectionIntro</text>
+<text x="62" y="663" class="small" style="fill:#213752">text-left</text>
+<rect x="52" y="702" width="296" height="72" fill="#f4f4f4"/>
+<text x="62" y="725" class="module" style="fill:#213752">H07 · NumberedSolutions</text>
+<text x="62" y="745" class="small" style="fill:#213752">3-columns</text>
+<rect x="52" y="784" width="296" height="72" fill="#213752"/>
+<text x="62" y="807" class="module" style="fill:white">H08 · ExpertiseMarquee</text>
+<text x="62" y="827" class="small" style="fill:white">navy</text>
+<rect x="52" y="866" width="296" height="72" fill="#f4f4f4"/>
+<text x="62" y="889" class="module" style="fill:#213752">H09 · DiscoverGrid</text>
+<text x="62" y="909" class="small" style="fill:#213752">2-by-2</text>
+<rect x="52" y="948" width="296" height="72" fill="#f4f4f4"/>
+<text x="62" y="971" class="module" style="fill:#213752">H10 · GuideCards</text>
+<text x="62" y="991" class="small" style="fill:#213752">3-columns</text>
+<rect x="52" y="1030" width="296" height="42" fill="#213752"/>
+<text x="62" y="1057" class="module" style="fill:white">Shared footer</text>
+<rect x="392" y="110" width="320" height="1000" fill="white"/>
+<text x="408" y="144" class="title">About</text>
+<rect x="404" y="165" width="296" height="30" fill="#eeeeee"/>
+<text x="414" y="185" class="small">Shared navigation</text>
+<rect x="404" y="210" width="296" height="72" fill="#9db7d4"/>
+<text x="414" y="233" class="module" style="fill:#213752">A01 · ImageHero</text>
+<text x="414" y="253" class="small" style="fill:#213752">full-image</text>
+<rect x="404" y="292" width="296" height="72" fill="#f4f4f4"/>
+<text x="414" y="315" class="module" style="fill:#213752">A02 · EditorialSplit</text>
+<text x="414" y="335" class="small" style="fill:#213752">image-left</text>
+<rect x="404" y="374" width="296" height="72" fill="#f4f4f4"/>
+<text x="414" y="397" class="module" style="fill:#213752">A03 · Timeline</text>
+<text x="414" y="417" class="small" style="fill:#213752">3-columns</text>
+<rect x="404" y="456" width="296" height="72" fill="#f4f4f4"/>
+<text x="414" y="479" class="module" style="fill:#213752">A04 · NumberedValues</text>
+<text x="414" y="499" class="small" style="fill:#213752">alternating</text>
+<rect x="404" y="538" width="296" height="72" fill="#f4f4f4"/>
+<text x="414" y="561" class="module" style="fill:#213752">A05 · FounderFeature</text>
+<text x="414" y="581" class="small" style="fill:#213752">text-only-no-fake-portrait</text>
+<rect x="404" y="620" width="296" height="72" fill="#213752"/>
+<text x="414" y="643" class="module" style="fill:white">A06 · ContactCTA</text>
+<text x="414" y="663" class="small" style="fill:white">navy</text>
+<rect x="404" y="702" width="296" height="42" fill="#213752"/>
+<text x="414" y="729" class="module" style="fill:white">Shared footer</text>
+<rect x="744" y="110" width="320" height="1000" fill="white"/>
+<text x="760" y="144" class="title">Hub</text>
+<rect x="756" y="165" width="296" height="30" fill="#eeeeee"/>
+<text x="766" y="185" class="small">Shared navigation</text>
+<rect x="756" y="210" width="296" height="72" fill="#9db7d4"/>
+<text x="766" y="233" class="module" style="fill:#213752">W01 · ServiceHero</text>
+<text x="766" y="253" class="small" style="fill:#213752">split</text>
+<rect x="756" y="292" width="296" height="72" fill="#f4f4f4"/>
+<text x="766" y="315" class="module" style="fill:#213752">W02 · EditorialSplit</text>
+<text x="766" y="335" class="small" style="fill:#213752">image-left</text>
+<rect x="756" y="374" width="296" height="72" fill="#f4f4f4"/>
+<text x="766" y="397" class="module" style="fill:#213752">W03 · ServiceGrid</text>
+<text x="766" y="417" class="small" style="fill:#213752">3-plus-2</text>
+<rect x="756" y="456" width="296" height="72" fill="#f4f4f4"/>
+<text x="766" y="479" class="module" style="fill:#213752">W04 · EditorialSplit</text>
+<text x="766" y="499" class="small" style="fill:#213752">image-right</text>
+<rect x="756" y="538" width="296" height="72" fill="#f4f4f4"/>
+<text x="766" y="561" class="module" style="fill:#213752">W05 · ClaimsPromo</text>
+<text x="766" y="581" class="small" style="fill:#213752">pale</text>
+<rect x="756" y="620" width="296" height="72" fill="#213752"/>
+<text x="766" y="643" class="module" style="fill:white">W06 · ContactCTA</text>
+<text x="766" y="663" class="small" style="fill:white">navy</text>
+<rect x="756" y="702" width="296" height="42" fill="#213752"/>
+<text x="766" y="729" class="module" style="fill:white">Shared footer</text>
+<rect x="1096" y="110" width="320" height="1000" fill="white"/>
+<text x="1112" y="144" class="title">Service</text>
+<rect x="1108" y="165" width="296" height="30" fill="#eeeeee"/>
+<text x="1118" y="185" class="small">Shared navigation</text>
+<rect x="1108" y="210" width="296" height="58" fill="#9db7d4"/>
+<text x="1118" y="233" class="module" style="fill:#213752">S01 · ServiceHero</text>
+<text x="1118" y="253" class="small" style="fill:#213752">split</text>
+<rect x="1108" y="278" width="296" height="58" fill="#f4f4f4"/>
+<text x="1118" y="301" class="module" style="fill:#213752">S02 · EditorialIntro</text>
+<text x="1118" y="321" class="small" style="fill:#213752">text-two-columns</text>
+<rect x="1108" y="346" width="296" height="58" fill="#f4f4f4"/>
+<text x="1118" y="369" class="module" style="fill:#213752">S03 · AudienceList</text>
+<text x="1118" y="389" class="small" style="fill:#213752">3-columns</text>
+<rect x="1108" y="414" width="296" height="58" fill="#f4f4f4"/>
+<text x="1118" y="437" class="module" style="fill:#213752">S04 · ConsiderationGrid</text>
+<text x="1118" y="457" class="small" style="fill:#213752">2-columns</text>
+<rect x="1108" y="482" width="296" height="58" fill="#213752"/>
+<text x="1118" y="505" class="module" style="fill:white">S05 · WhyUs</text>
+<text x="1118" y="525" class="small" style="fill:white">navy</text>
+<rect x="1108" y="550" width="296" height="58" fill="#f4f4f4"/>
+<text x="1118" y="573" class="module" style="fill:#213752">S06 · ConsiderationGrid</text>
+<text x="1118" y="593" class="small" style="fill:#213752">2-columns</text>
+<rect x="1108" y="618" width="296" height="58" fill="#f4f4f4"/>
+<text x="1118" y="641" class="module" style="fill:#213752">S07 · ProcessSteps</text>
+<text x="1118" y="661" class="small" style="fill:#213752">numbered</text>
+<rect x="1108" y="686" width="296" height="58" fill="#f4f4f4"/>
+<text x="1118" y="709" class="module" style="fill:#213752">S08 · FAQ</text>
+<text x="1118" y="729" class="small" style="fill:#213752">wide-hairlines</text>
+<rect x="1108" y="754" width="296" height="58" fill="#f4f4f4"/>
+<text x="1118" y="777" class="module" style="fill:#213752">S09 · RelatedServices</text>
+<text x="1118" y="797" class="small" style="fill:#213752">2-columns</text>
+<rect x="1108" y="822" width="296" height="58" fill="#f4f4f4"/>
+<text x="1118" y="845" class="module" style="fill:#213752">S10 · ClaimsPromo</text>
+<text x="1118" y="865" class="small" style="fill:#213752">pale</text>
+<rect x="1108" y="890" width="296" height="58" fill="#f4f4f4"/>
+<text x="1118" y="913" class="module" style="fill:#213752">S11 · GuideCards</text>
+<text x="1118" y="933" class="small" style="fill:#213752">2-columns</text>
+<rect x="1108" y="958" width="296" height="58" fill="#213752"/>
+<text x="1118" y="981" class="module" style="fill:white">S12 · ContactCTA</text>
+<text x="1118" y="1001" class="small" style="fill:white">navy</text>
+<rect x="1108" y="1026" width="296" height="42" fill="#213752"/>
+<text x="1118" y="1053" class="module" style="fill:white">Shared footer</text>
+<rect x="1448" y="110" width="320" height="1000" fill="white"/>
+<text x="1464" y="144" class="title">Claims</text>
+<rect x="1460" y="165" width="296" height="30" fill="#eeeeee"/>
+<text x="1470" y="185" class="small">Shared navigation</text>
+<rect x="1460" y="210" width="296" height="72" fill="#9db7d4"/>
+<text x="1470" y="233" class="module" style="fill:#213752">CL01 · ServiceHero</text>
+<text x="1470" y="253" class="small" style="fill:#213752">split</text>
+<rect x="1460" y="292" width="296" height="72" fill="#f4f4f4"/>
+<text x="1470" y="315" class="module" style="fill:#213752">CL02 · EditorialIntro</text>
+<text x="1470" y="335" class="small" style="fill:#213752">text</text>
+<rect x="1460" y="374" width="296" height="72" fill="#f4f4f4"/>
+<text x="1470" y="397" class="module" style="fill:#213752">CL03 · ProcessSteps</text>
+<text x="1470" y="417" class="small" style="fill:#213752">numbered</text>
+<rect x="1460" y="456" width="296" height="72" fill="#f4f4f4"/>
+<text x="1470" y="479" class="module" style="fill:#213752">CL04 · Checklist</text>
+<text x="1470" y="499" class="small" style="fill:#213752">pale</text>
+<rect x="1460" y="538" width="296" height="72" fill="#f4f4f4"/>
+<text x="1470" y="561" class="module" style="fill:#213752">CL05 · FAQ</text>
+<text x="1470" y="581" class="small" style="fill:#213752">wide-hairlines</text>
+<rect x="1460" y="620" width="296" height="72" fill="#f4f4f4"/>
+<text x="1470" y="643" class="module" style="fill:#213752">CL06 · GuideCards</text>
+<text x="1470" y="663" class="small" style="fill:#213752">1-feature</text>
+<rect x="1460" y="702" width="296" height="72" fill="#f4f4f4"/>
+<text x="1470" y="725" class="module" style="fill:#213752">CL07 · ContactCTA</text>
+<text x="1470" y="745" class="small" style="fill:#213752">topic-claims</text>
+<rect x="1460" y="784" width="296" height="42" fill="#213752"/>
+<text x="1470" y="811" class="module" style="fill:white">Shared footer</text>
+<rect x="40" y="1160" width="320" height="1000" fill="white"/>
+<text x="56" y="1194" class="title">Contact</text>
+<rect x="52" y="1215" width="296" height="30" fill="#eeeeee"/>
+<text x="62" y="1235" class="small">Shared navigation</text>
+<rect x="52" y="1260" width="296" height="72" fill="#9db7d4"/>
+<text x="62" y="1283" class="module" style="fill:#213752">CT01 · TextHero</text>
+<text x="62" y="1303" class="small" style="fill:#213752">pale</text>
+<rect x="52" y="1342" width="296" height="72" fill="#f4f4f4"/>
+<text x="62" y="1365" class="module" style="fill:#213752">CT02 · ContactForm</text>
+<text x="62" y="1385" class="small" style="fill:#213752">two-thirds</text>
+<rect x="52" y="1424" width="296" height="72" fill="#f4f4f4"/>
+<text x="62" y="1447" class="module" style="fill:#213752">CT03 · LocationPanel</text>
+<text x="62" y="1467" class="small" style="fill:#213752">approved-contact</text>
+<rect x="52" y="1506" width="296" height="42" fill="#213752"/>
+<text x="62" y="1533" class="module" style="fill:white">Shared footer</text>
+<rect x="392" y="1160" width="320" height="1000" fill="white"/>
+<text x="408" y="1194" class="title">Resources</text>
+<rect x="404" y="1215" width="296" height="30" fill="#eeeeee"/>
+<text x="414" y="1235" class="small">Shared navigation</text>
+<rect x="404" y="1260" width="296" height="72" fill="#9db7d4"/>
+<text x="414" y="1283" class="module" style="fill:#213752">R01 · TextHero</text>
+<text x="414" y="1303" class="small" style="fill:#213752">pale</text>
+<rect x="404" y="1342" width="296" height="72" fill="#f4f4f4"/>
+<text x="414" y="1365" class="module" style="fill:#213752">R02 · ResourceFilter</text>
+<text x="414" y="1385" class="small" style="fill:#213752">inline-tabs</text>
+<rect x="404" y="1424" width="296" height="72" fill="#f4f4f4"/>
+<text x="414" y="1447" class="module" style="fill:#213752">R03 · GuideCards</text>
+<text x="414" y="1467" class="small" style="fill:#213752">3-plus-2</text>
+<rect x="404" y="1506" width="296" height="42" fill="#213752"/>
+<text x="414" y="1533" class="module" style="fill:white">Shared footer</text>
+<rect x="744" y="1160" width="320" height="1000" fill="white"/>
+<text x="760" y="1194" class="title">Insights</text>
+<rect x="756" y="1215" width="296" height="30" fill="#eeeeee"/>
+<text x="766" y="1235" class="small">Shared navigation</text>
+<rect x="756" y="1260" width="296" height="72" fill="#9db7d4"/>
+<text x="766" y="1283" class="module" style="fill:#213752">I01 · TextHero</text>
+<text x="766" y="1303" class="small" style="fill:#213752">pale</text>
+<rect x="756" y="1342" width="296" height="72" fill="#f4f4f4"/>
+<text x="766" y="1365" class="module" style="fill:#213752">I02 · FeaturedGuide</text>
+<text x="766" y="1385" class="small" style="fill:#213752">split</text>
+<rect x="756" y="1424" width="296" height="72" fill="#f4f4f4"/>
+<text x="766" y="1447" class="module" style="fill:#213752">I03 · GuideCards</text>
+<text x="766" y="1467" class="small" style="fill:#213752">2-by-2</text>
+<rect x="756" y="1506" width="296" height="42" fill="#213752"/>
+<text x="766" y="1533" class="module" style="fill:white">Shared footer</text>
+<rect x="1096" y="1160" width="320" height="1000" fill="white"/>
+<text x="1112" y="1194" class="title">Article</text>
+<rect x="1108" y="1215" width="296" height="30" fill="#eeeeee"/>
+<text x="1118" y="1235" class="small">Shared navigation</text>
+<rect x="1108" y="1260" width="296" height="72" fill="#9db7d4"/>
+<text x="1118" y="1283" class="module" style="fill:#213752">D01 · ArticleHero</text>
+<text x="1118" y="1303" class="small" style="fill:#213752">wide-title</text>
+<rect x="1108" y="1342" width="296" height="72" fill="#f4f4f4"/>
+<text x="1118" y="1365" class="module" style="fill:#213752">D02 · ArticleTOC</text>
+<text x="1118" y="1385" class="small" style="fill:#213752">desktop-sticky</text>
+<rect x="1108" y="1424" width="296" height="72" fill="#f4f4f4"/>
+<text x="1118" y="1447" class="module" style="fill:#213752">D03 · MarkdownBody</text>
+<text x="1118" y="1467" class="small" style="fill:#213752">760px</text>
+<rect x="1108" y="1506" width="296" height="72" fill="#213752"/>
+<text x="1118" y="1529" class="module" style="fill:white">D04 · ServiceLink</text>
+<text x="1118" y="1549" class="small" style="fill:white">navy</text>
+<rect x="1108" y="1588" width="296" height="72" fill="#f4f4f4"/>
+<text x="1118" y="1611" class="module" style="fill:#213752">D05 · GuideCards</text>
+<text x="1118" y="1631" class="small" style="fill:#213752">2-columns</text>
+<rect x="1108" y="1670" width="296" height="42" fill="#213752"/>
+<text x="1118" y="1697" class="module" style="fill:white">Shared footer</text>
+<rect x="1448" y="1160" width="320" height="1000" fill="white"/>
+<text x="1464" y="1194" class="title">Legal</text>
+<rect x="1460" y="1215" width="296" height="30" fill="#eeeeee"/>
+<text x="1470" y="1235" class="small">Shared navigation</text>
+<rect x="1460" y="1260" width="296" height="72" fill="#9db7d4"/>
+<text x="1470" y="1283" class="module" style="fill:#213752">L01 · TextHero</text>
+<text x="1470" y="1303" class="small" style="fill:#213752">compact</text>
+<rect x="1460" y="1342" width="296" height="72" fill="#f4f4f4"/>
+<text x="1470" y="1365" class="module" style="fill:#213752">L02 · MarkdownBody</text>
+<text x="1470" y="1385" class="small" style="fill:#213752">760px</text>
+<rect x="1460" y="1424" width="296" height="42" fill="#213752"/>
+<text x="1470" y="1451" class="module" style="fill:white">Shared footer</text>
+</svg>

@@ -1,0 +1,409 @@
+[
+  {
+    "slug": "commercial-general",
+    "title": "Commercial & General Insurance",
+    "summary": "Practical insurance conversations for business and everyday exposures.",
+    "assetId": "architecture",
+    "introHeading": "Start with the operation behind the policy.",
+    "introBody": [
+      "Businesses differ in what they own, where they operate and how they work. A useful insurance review brings those details together before comparing policy options. The same principle applies to personal general insurance requirements.",
+      "Bright Fortune’s published offering includes general insurance, fire, burglary and property all risks. We help you discuss the relevant exposures and understand how the available terms relate to your circumstances.",
+      "Existing schedules, asset information and a description of operations can make the first conversation more productive. If something has changed since your last renewal, tell us early so that it can be considered as part of the review."
+    ],
+    "coverageHeading": "Cover to consider",
+    "coverages": [
+      {
+        "title": "General insurance",
+        "body": "Discuss your activities and priorities so that relevant general insurance requirements can be identified.",
+        "status": "published-offering"
+      },
+      {
+        "title": "Fire",
+        "body": "Consider protection for specified fire-related loss or damage, with attention to the property, insured interest and policy conditions.",
+        "status": "published-offering"
+      },
+      {
+        "title": "Burglary",
+        "body": "Review the circumstances covered by the selected wording, including security requirements and applicable limits.",
+        "status": "published-offering"
+      },
+      {
+        "title": "Property all risks",
+        "body": "Discuss broader physical loss or damage protection, while identifying exclusions, deductibles and valuation conditions.",
+        "status": "published-offering"
+      }
+    ],
+    "considerationsHeading": "The details that shape the discussion",
+    "considerations": [
+      {
+        "title": "Business activities",
+        "body": "Explain what the business does, where work takes place and whether operations have changed."
+      },
+      {
+        "title": "Assets and values",
+        "body": "Identify the property or goods to be insured and how the values have been assessed."
+      },
+      {
+        "title": "Existing arrangements",
+        "body": "Bring your current schedule and wording if you want to compare or review cover."
+      },
+      {
+        "title": "Terms and responsibilities",
+        "body": "Ask what information, safeguards and notification requirements apply before and during the policy."
+      }
+    ],
+    "audience": [
+      "Businesses reviewing their insurance",
+      "Owners with property-related exposures",
+      "Individuals with general insurance questions"
+    ],
+    "faqs": [
+      {
+        "question": "Can I review an existing policy?",
+        "answer": "Yes, you can bring an existing schedule and wording for discussion. Any proposed alternative needs to be considered against its own terms and your circumstances."
+      },
+      {
+        "question": "Is the lowest premium always the best comparison?",
+        "answer": "Premium matters, but different limits, excesses, exclusions and conditions may change the practical value of cover. Compare the relevant terms together."
+      },
+      {
+        "question": "What should I prepare for an enquiry?",
+        "answer": "A short description of activities, location, property or assets, current cover and any recent changes is a useful starting point."
+      }
+    ],
+    "related": [
+      "property-fire",
+      "marine"
+    ],
+    "resourceIds": [
+      "property-all-risks",
+      "preparing-for-a-claim"
+    ],
+    "ctaLabel": "Discuss commercial & general insurance",
+    "availabilityNote": "Availability, eligibility, benefits and exclusions depend on the insurer and the policy selected. This page is an introduction, not a confirmation of cover."
+  },
+  {
+    "slug": "property-fire",
+    "title": "Property & Fire Insurance",
+    "summary": "Consider the cover behind the buildings, contents and assets that matter to you.",
+    "assetId": "architecture",
+    "introHeading": "Look closely at what is at risk.",
+    "introBody": [
+      "Property insurance begins with the insured interest: what is being protected, who is responsible for it and how it is used. Location, construction, occupancy and values can all affect the discussion.",
+      "Bright Fortune helps clients consider property all risks, fire and burglary insurance within its published offering. We look at the relevant cover alongside the conditions and exclusions that determine how a policy responds.",
+      "A broad policy name does not mean every loss is insured. The useful comparison is between the actual wordings, selected sums insured, limits and excesses. Your circumstances may also change between renewals, so alterations, vacancy or new uses should be raised for review."
+    ],
+    "coverageHeading": "Cover to consider",
+    "coverages": [
+      {
+        "title": "Property all risks",
+        "body": "A form of property protection whose scope is defined by the wording, including exclusions and conditions.",
+        "status": "published-offering"
+      },
+      {
+        "title": "Fire",
+        "body": "Specified fire-related loss or damage protection, subject to the insured property and selected terms.",
+        "status": "published-offering"
+      },
+      {
+        "title": "Burglary",
+        "body": "Cover for qualifying burglary events under the policy’s definitions, limits and security conditions.",
+        "status": "published-offering"
+      }
+    ],
+    "considerationsHeading": "The details that shape the discussion",
+    "considerations": [
+      {
+        "title": "Insured property",
+        "body": "Clarify the buildings, contents, equipment or other assets being discussed and your interest in them."
+      },
+      {
+        "title": "Basis of valuation",
+        "body": "Ask how the sum insured should be assessed and how underinsurance provisions may operate."
+      },
+      {
+        "title": "Occupancy and safeguards",
+        "body": "Explain how the premises are used, including vacancy, renovations and relevant security arrangements."
+      },
+      {
+        "title": "Excluded causes and excesses",
+        "body": "Discuss the causes of loss not insured and the amount you may have to bear on a claim."
+      }
+    ],
+    "audience": [
+      "Property owners",
+      "Businesses with premises or equipment",
+      "Clients reviewing fire or burglary protection"
+    ],
+    "faqs": [
+      {
+        "question": "Does “all risks” mean every possible loss?",
+        "answer": "No. The wording still sets exclusions, conditions and limits. It is important to read the policy rather than infer the scope from the name."
+      },
+      {
+        "question": "Are a building and its contents automatically insured together?",
+        "answer": "Not necessarily. Confirm the property described in the schedule and the interests and values included."
+      },
+      {
+        "question": "Should I notify changes to the premises?",
+        "answer": "Check your policy’s notification requirements and discuss material changes such as use, vacancy or renovations promptly."
+      }
+    ],
+    "related": [
+      "commercial-general",
+      "marine"
+    ],
+    "resourceIds": [
+      "property-all-risks",
+      "preparing-for-a-claim"
+    ],
+    "ctaLabel": "Discuss property & fire insurance",
+    "availabilityNote": "Availability, eligibility, benefits and exclusions depend on the insurer and the policy selected. This page is an introduction, not a confirmation of cover."
+  },
+  {
+    "slug": "marine",
+    "title": "Marine Insurance",
+    "summary": "Insurance discussions shaped around the marine interest, movement and responsibilities involved.",
+    "assetId": "marine",
+    "introHeading": "Understand the journey and the interest.",
+    "introBody": [
+      "Marine insurance is a broad field. The right questions depend on what is at risk, who holds the insured interest and where responsibilities begin and end. A shipment, a vessel interest and a contractual responsibility are not interchangeable exposures.",
+      "Bright Fortune’s published offering includes marine insurance. Tell us about the specific requirement so that we can discuss the relevant next steps and the information needed to consider options.",
+      "Start with the nature of the interest, the route or operating area, the values involved and the contractual arrangements. Clarifying those points early helps avoid assumptions about what a general description of marine cover includes."
+    ],
+    "coverageHeading": "Areas to discuss",
+    "coverages": [
+      {
+        "title": "The insured interest",
+        "body": "Describe what needs protection and the relationship between you, the goods, vessel or operation. These are enquiry topics, not a list of confirmed specialist products.",
+        "status": "educational"
+      },
+      {
+        "title": "Movement and geography",
+        "body": "Explain the route, transport stages, storage periods or operating area relevant to the enquiry.",
+        "status": "educational"
+      },
+      {
+        "title": "Values and responsibilities",
+        "body": "Set out the values involved and any contractual allocation of risk that should be considered.",
+        "status": "educational"
+      },
+      {
+        "title": "Existing protection",
+        "body": "Identify any existing policy or arrangement and the points you want to clarify or review.",
+        "status": "educational"
+      }
+    ],
+    "considerationsHeading": "The details that shape the discussion",
+    "considerations": [
+      {
+        "title": "Transit and storage",
+        "body": "Where goods are involved, explain collection, transit, handling and storage stages; do not assume each stage is covered."
+      },
+      {
+        "title": "Contractual terms",
+        "body": "Share the relevant commercial responsibilities for review. Contract labels alone do not determine insurance coverage."
+      },
+      {
+        "title": "Nature of the exposure",
+        "body": "Describe the goods or marine activity accurately, including unusual characteristics and changes."
+      },
+      {
+        "title": "Policy response",
+        "body": "Ask about the selected cover, territorial scope, excesses, exclusions and reporting requirements before relying on it."
+      }
+    ],
+    "audience": [
+      "Clients with marine insurance enquiries",
+      "Businesses reviewing movement-related risks",
+      "Clients clarifying an existing marine arrangement"
+    ],
+    "faqs": [
+      {
+        "question": "Does this page confirm cargo, hull or marine liability cover?",
+        "answer": "No. Bright Fortune’s published website confirms marine insurance generally. The specific class and available placement must be established for your enquiry."
+      },
+      {
+        "question": "What information should I provide first?",
+        "answer": "The interest to be insured, values, route or operating area, timing, relevant responsibilities and any existing cover are useful starting points."
+      },
+      {
+        "question": "Is marine insurance only about transport by sea?",
+        "answer": "Some marine arrangements may involve other transport or related stages. The actual scope depends on the policy; describe the full circumstances for discussion."
+      },
+      {
+        "question": "What if a loss has already occurred?",
+        "answer": "Follow the notification instructions in the existing policy and visit our claims page. A new enquiry does not put retrospective cover in place."
+      }
+    ],
+    "related": [
+      "property-fire",
+      "commercial-general"
+    ],
+    "resourceIds": [
+      "marine-insurance-questions",
+      "preparing-for-a-claim"
+    ],
+    "ctaLabel": "Discuss marine insurance",
+    "availabilityNote": "Availability, eligibility, benefits and exclusions depend on the insurer and the policy selected. This page is an introduction, not a confirmation of cover."
+  },
+  {
+    "slug": "life-protection",
+    "title": "Life & Protection Insurance",
+    "summary": "Understand the structures behind protection for family, income and changing responsibilities.",
+    "assetId": "life",
+    "introHeading": "Begin with what the protection needs to do.",
+    "introBody": [
+      "Protection needs can change with dependants, borrowing, income and longer-term commitments. The first question is the purpose of cover: what financial exposure are you trying to address, and for how long?",
+      "Bright Fortune’s published product range includes term life, whole-of-life, trauma and income protection. We help you discuss the differences and the information needed to assess relevant options.",
+      "Policy definitions, benefit conditions, premiums and eligibility can vary. A conversation should bring those differences into view rather than treating products with similar names as identical. Do not cancel existing cover before understanding the consequences and the status of any replacement."
+    ],
+    "coverageHeading": "Cover to consider",
+    "coverages": [
+      {
+        "title": "Term life",
+        "body": "Life cover for a specified period under the selected policy, with the term and benefit structure considered around the need.",
+        "status": "published-offering"
+      },
+      {
+        "title": "Whole of life",
+        "body": "A longer-duration life insurance structure, subject to the policy’s premium requirements and other terms.",
+        "status": "published-offering"
+      },
+      {
+        "title": "Trauma / critical illness",
+        "body": "Benefits linked to specified insured events and definitions. Products can differ in which conditions and circumstances qualify.",
+        "status": "published-offering"
+      },
+      {
+        "title": "Income protection",
+        "body": "Benefits that may respond when illness or injury affects work, subject to definitions, waiting periods, limits and eligibility.",
+        "status": "published-offering"
+      }
+    ],
+    "considerationsHeading": "The details that shape the discussion",
+    "considerations": [
+      {
+        "title": "Purpose and duration",
+        "body": "Consider who depends on your income, the commitments involved and the period for which protection is needed."
+      },
+      {
+        "title": "Affordability",
+        "body": "Discuss the premium structure and your ability to maintain the arrangement over time."
+      },
+      {
+        "title": "Benefit definitions",
+        "body": "Understand the insured event, exclusions, waiting periods and any evidence required."
+      },
+      {
+        "title": "Existing policies",
+        "body": "Review overlap and replacement consequences before changing cover; new underwriting may apply."
+      }
+    ],
+    "audience": [
+      "Individuals reviewing protection",
+      "Families with changing commitments",
+      "Clients considering income-related protection"
+    ],
+    "faqs": [
+      {
+        "question": "How do term life and whole of life differ?",
+        "answer": "Term life is generally structured for a defined period. Whole-of-life structures are designed for longer-duration cover, subject to their terms. Premiums, benefits and any value features require a policy-specific comparison."
+      },
+      {
+        "question": "Is trauma insurance the same as medical insurance?",
+        "answer": "They usually serve different purposes. Trauma or critical illness benefits depend on defined events; medical insurance generally addresses specified treatment expenses. The actual policy terms govern."
+      },
+      {
+        "question": "Can income protection replace every part of my earnings?",
+        "answer": "Do not assume that it will. Benefit amounts, eligible earnings, waiting periods and payment duration depend on the product and your circumstances."
+      }
+    ],
+    "related": [
+      "medical-dental",
+      "commercial-general"
+    ],
+    "resourceIds": [
+      "term-vs-whole-life"
+    ],
+    "ctaLabel": "Discuss life & protection insurance",
+    "availabilityNote": "Availability, eligibility, benefits and exclusions depend on the insurer and the policy selected. This page is an introduction, not a confirmation of cover."
+  },
+  {
+    "slug": "medical-dental",
+    "title": "Medical & Dental Insurance",
+    "summary": "Compare health cover with a clearer view of benefits, limits and conditions.",
+    "assetId": "health",
+    "introHeading": "Understand the differences before you need the policy.",
+    "introBody": [
+      "Medical insurance policies can differ in the treatment they address, where benefits apply and how much the policyholder contributes. Dental benefits also vary in scope and limits. Those differences deserve attention before a decision is made.",
+      "Bright Fortune’s published offering includes medical and dental insurance. We help clients discuss their priorities and compare relevant features of available options.",
+      "Consider the location of treatment, hospitals or practitioners, reimbursement limits, deductibles, waiting periods and exclusions. Existing medical circumstances and underwriting can affect eligibility and terms; disclose information accurately through the appropriate process."
+    ],
+    "coverageHeading": "Cover to consider",
+    "coverages": [
+      {
+        "title": "Medical insurance",
+        "body": "Health insurance options considered against the benefits, limits, treatment geography and conditions of the selected policy.",
+        "status": "published-offering"
+      },
+      {
+        "title": "Dental insurance",
+        "body": "Dental protection discussed with attention to eligible treatment, annual limits, waiting periods and any contribution required.",
+        "status": "published-offering"
+      }
+    ],
+    "considerationsHeading": "The details that shape the discussion",
+    "considerations": [
+      {
+        "title": "Limits and sub-limits",
+        "body": "Review the total benefit ceiling and any separate limits for particular treatments or services."
+      },
+      {
+        "title": "Deductibles and contributions",
+        "body": "Understand the portion of eligible costs you may have to pay and how it is calculated."
+      },
+      {
+        "title": "Networks and geography",
+        "body": "Check whether provider choice or treatment location affects eligibility or reimbursement."
+      },
+      {
+        "title": "Exclusions and waiting periods",
+        "body": "Discuss pre-existing conditions, underwriting terms and when particular benefits become available."
+      }
+    ],
+    "audience": [
+      "Individuals reviewing health cover",
+      "Clients comparing medical and dental options",
+      "Local and expatriate clients with health insurance questions"
+    ],
+    "faqs": [
+      {
+        "question": "Does medical cover include dental treatment?",
+        "answer": "Not automatically. Check whether dental benefits are included, optional or arranged separately, and review their specific limits."
+      },
+      {
+        "question": "Will an existing condition be covered?",
+        "answer": "It depends on the insurer, product and underwriting terms. Do not assume inclusion without written confirmation in the relevant policy documents."
+      },
+      {
+        "question": "Can I use any hospital or practitioner?",
+        "answer": "Provider networks, treatment geography and reimbursement rules differ. Check the policy before making that assumption."
+      },
+      {
+        "question": "Should I send medical records through the contact form?",
+        "answer": "No. Use the form only for an initial enquiry and request an appropriate secure channel if further information is needed."
+      }
+    ],
+    "related": [
+      "life-protection",
+      "commercial-general"
+    ],
+    "resourceIds": [
+      "medical-limits-exclusions",
+      "preparing-for-a-claim"
+    ],
+    "ctaLabel": "Discuss medical & dental insurance",
+    "availabilityNote": "Availability, eligibility, benefits and exclusions depend on the insurer and the policy selected. This page is an introduction, not a confirmation of cover."
+  }
+]

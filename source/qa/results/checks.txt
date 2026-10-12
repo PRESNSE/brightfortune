@@ -1,0 +1,61 @@
+PASS  route / — status=200 h1=1 titleOK=true descLen=133
+PASS  route /who-we-are — status=200 h1=1 titleOK=true descLen=120
+PASS  route /what-we-do — status=200 h1=1 titleOK=true descLen=115
+PASS  route /claims — status=200 h1=1 titleOK=true descLen=133
+PASS  route /contact — status=200 h1=1 titleOK=true descLen=136
+PASS  route /resources — status=200 h1=1 titleOK=true descLen=121
+PASS  route /insights — status=200 h1=1 titleOK=true descLen=119
+PASS  route /what-we-do/commercial-general — status=200 h1=1 titleOK=true descLen=158
+PASS  route /what-we-do/property-fire — status=200 h1=1 titleOK=true descLen=168
+PASS  route /what-we-do/marine — status=200 h1=1 titleOK=true descLen=184
+PASS  route /what-we-do/life-protection — status=200 h1=1 titleOK=true descLen=181
+PASS  route /what-we-do/medical-dental — status=200 h1=1 titleOK=true descLen=164
+PASS  route /insights/property-all-risks — status=200 h1=1 titleOK=true descLen=150
+PASS  route /insights/marine-insurance-questions — status=200 h1=1 titleOK=true descLen=148
+PASS  route /insights/term-vs-whole-life — status=200 h1=1 titleOK=true descLen=137
+PASS  route /insights/preparing-for-a-claim — status=200 h1=1 titleOK=true descLen=148
+PASS  route /insights/medical-limits-exclusions — status=200 h1=1 titleOK=true descLen=134
+PASS  route /privacy — status=200 h1=1 titleOK=true descLen=65
+PASS  route /terms — status=200 h1=1 titleOK=true descLen=64
+PASS  route /regulation-and-complaints — status=200 h1=1 titleOK=true descLen=78
+PASS  route /cookies — status=200 h1=1 titleOK=true descLen=78
+PASS  titles unique
+PASS  404 /insights/nonexistent-guide-test
+PASS  404 /what-we-do/nonexistent
+PASS  404 /nope
+PASS  404 /resources/x
+PASS  redirect /main.htm — 308 -> /
+PASS  redirect /aboutus.htm — 308 -> /who-we-are
+PASS  internal links resolve, no empty hrefs
+PASS  robots.txt allows crawl, no sitemap in preview
+PASS  preview sitemap empty — <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+</urlset>
+
+PASS  no JSON-LD in preview
+PASS  no canonical in preview
+PASS  preview API -> 503 PREVIEW_DISABLED
+PASS  live accepted 200 + reference
+PASS  duplicate requestId returns same reference (no 2nd send)
+PASS  invalid -> 400 VALIDATION
+PASS  wrong origin -> 403
+PASS  absent origin -> 403
+PASS  wrong type -> 415
+PASS  oversized -> 413
+PASS  honeypot -> 400 neutral
+PASS  uncertain -> 504
+PASS  transport down -> 503
+PASS  5th attempt in window still allowed or limited
+PASS  rate limit -> 429 + Retry-After — status=429
+PASS  public fixture: index,follow + canonical
+PASS  public fixture: JSON-LD parses (InsuranceAgency + WebSite)
+PASS  service JSON-LD Service + Breadcrumb
+PASS  guide JSON-LD Article without invented dates
+PASS  legal page noindex,follow in public fixture
+PASS  public sitemap: 17 indexable routes, no legal, no lastmod — n=17
+PASS  public fixture on wrong host stays noindex (header)
+PASS  public fixture API (no transport env) fails closed 503
+PASS  no server credentials/approval data in client bundle
+PASS  no external BMS requests in HTML
+
+56/56 passed

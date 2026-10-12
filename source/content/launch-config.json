@@ -1,0 +1,50 @@
+{
+  "mode": "preview",
+  "canonicalOrigin": null,
+  "companyIdentityApproved": false,
+  "historyApproved": false,
+  "copyApproved": false,
+  "articlesApproved": false,
+  "assetsApproved": false,
+  "legalApproved": false,
+  "regulatoryApproved": false,
+  "contactApproved": false,
+  "publicationDate": null,
+  "regulatoryStatement": null,
+  "licenceNumber": null,
+  "licenceBusinessLines": [],
+  "legalReviewNotes": "Replace the explicit review paragraphs in legal drafts with verified statements before setting legalApproved. Do not simply hide the draft badge.",
+  "contact": {
+    "phone": "+852 2314 9292",
+    "email": null,
+    "address": "Room 1621–24, Beverley Commercial Centre, 87–105 Chatham Road, Tsim Sha Tsui, Kowloon, Hong Kong",
+    "sourceStatus": "provisional-directory-and-uploaded-blueprint",
+    "privacyContactNameOrRole": null,
+    "privacyEmailOrPostalChannel": null,
+    "complaintsContactNameOrRole": null,
+    "hours": null
+  },
+  "form": {
+    "mode": "preview",
+    "provider": null,
+    "transportTestPassed": false,
+    "contactOnlyFallback": false,
+    "retentionPolicyApproved": false,
+    "rateLimitConfigured": false
+  },
+  "brand": {
+    "wordmark": "/images/wordmark.svg",
+    "officialLogoProvided": false,
+    "draftWordmarkApprovedForLaunch": false
+  },
+  "optionalMarineSubclasses": {
+    "cargo": false,
+    "hull": false,
+    "marineLiability": false
+  },
+  "tracking": {
+    "analyticsEnabled": false,
+    "advertisingEnabled": false
+  },
+  "approvalEvidence": {}
+}
