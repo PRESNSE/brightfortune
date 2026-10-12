@@ -26,6 +26,8 @@ Raw output: `qa/results/{checks,ui,console}.txt`; screenshots: `qa/screenshots/`
 | No horizontal overflow at 320/375/768/1440 on 10 representative routes | PASS | ui.txt |
 | Console errors/warnings/hydration on 5 pages | PASS (clean) | console.txt |
 | Visual inspection: home 1440/375, service (marine) 1440/375, contact 375, guide 1440, mega menu, mobile menu | DONE (screenshots) | compared with design intent, not pixel-compared to BMS |
+| Mobile spec conformance @375/320 (`qa/mobile-spec.mjs`): nav 68px, hero ≥640px, H1 48.75px/46px two-line with rule hidden and fitting the text width, three 33.3% photo strips, body 17px, H2 40px, 22px gutter, 64px section padding, capsule 280×350, facts 2+2+1, single-column solutions, all targets ≥44px | PASS (after fixing 40–42px footer/nav links) | mobile-spec.txt |
+| Mobile parity with the live BMS site | **NOT VERIFIABLE**: the pack records that BMS mobile/breakpoints and motion were never measured (one ~1348px desktop inspection only), and re-crawling BMS is out of scope. Responsive values are Bright Fortune's committed spec, not BMS measurements. | DESIGN_SYSTEM.md |
 | Hero image weight: desktop ≈3×60 KB (800w), mobile ≈3×22 KB (480w) | within budget | file sizes |
 | Lighthouse / Web Vitals audit | **NOT RUN** (no tooling installed; no field data) | — |
 | 200% zoom, screen-reader pass, other browsers/real devices | **NOT RUN** (layout reflows by CSS; unverified manually) | — |
