@@ -41,14 +41,14 @@
         "Look",
         "ahead."
       ],
-      "intro": "Insurance advice from Hong Kong, shaped around your business, your people and what comes next.",
+      "intro": "Insurance advice that brings your business, your people and your future into focus.",
       "cta": {
         "label": "Who we are",
         "href": "/who-we-are"
       }
     },
     "intro": {
-      "heading": "Closer to your circumstances.",
+      "heading": "We get closer to understand what matters most to you.",
       "paragraphs": [
         "Bright Fortune helps businesses, individuals and families make sense of insurance across general, property, marine, life and health protection. We start by understanding what matters to you and the risks behind it.",
         "Established in Hong Kong in 1995, our business brings experience and personal attention to decisions that deserve both."
@@ -66,8 +66,8 @@
         "approvalKey": "historyApproved"
       },
       {
-        "value": "Hong Kong",
-        "label": "Our home market",
+        "value": "HK",
+        "label": "Hong Kong, our home market",
         "approvalKey": "companyIdentityApproved"
       },
       {
@@ -96,30 +96,31 @@
       "cta": {
         "label": "Contact Bright Fortune",
         "href": "/contact"
-      }
+      },
+      "cardBody": "From our home in Hong Kong, we help local and expatriate clients consider insurance for their businesses, their families and their changing circumstances."
     },
     "solutionsIntro": {
       "heading": "Different risks. One conversation.",
       "paragraphs": [
-        "Explore our areas of work, then tell us what you are looking to protect. We will help you identify the questions that matter."
+        "Your business, property and personal life are connected. We bring those different insurance needs into one conversation, helping you understand the options, identify the important questions and consider how your protection fits together."
       ]
     },
     "numberedCards": [
       {
-        "title": "Commercial & General",
-        "body": "Business and personal insurance requirements, including property, fire and burglary exposures.",
+        "title": "Commercial solutions.",
+        "body": "Your premises, assets and day-to-day operations each bring different exposures. We help you consider general and property insurance together, with attention to the limits, conditions and information that matter to your business.",
         "href": "/what-we-do/commercial-general",
-        "assetId": "architecture"
+        "assetId": "conversation"
       },
       {
-        "title": "Marine",
-        "body": "A considered approach to marine insurance, starting with the interest, movement and responsibilities involved.",
+        "title": "Marine solutions.",
+        "body": "Goods in transit and marine interests call for a clear understanding of the journey, the responsibilities and the risks involved. We help you bring those details into focus and discuss relevant cover for your circumstances.",
         "href": "/what-we-do/marine",
         "assetId": "marine"
       },
       {
-        "title": "Life & Health",
-        "body": "Life, protection, medical and dental choices explained around your circumstances.",
+        "title": "Life & health solutions.",
+        "body": "Protection needs change with the people and priorities in your life. We help you explore life, medical and dental insurance, understand the differences between options and consider how they fit into the wider picture.",
         "href": "/what-we-do/life-protection",
         "secondaryHref": "/what-we-do/medical-dental",
         "assetId": "life"
@@ -141,22 +142,22 @@
     "discover": [
       {
         "title": "Our approach",
-        "body": "We take time to understand the situation before discussing the policy.",
+        "body": "We take time to understand your circumstances, ask useful questions and explain the details that can make a practical difference.",
         "href": "/who-we-are"
       },
       {
         "title": "Claims support",
-        "body": "Clear information and a connected point of contact when you need to use your insurance.",
+        "body": "Know what information to gather, who to contact and how to keep the next steps clear when you need to use your insurance.",
         "href": "/claims"
       },
       {
         "title": "Practical guides",
-        "body": "Straightforward explanations for more informed insurance conversations.",
+        "body": "Explore straightforward introductions to property, marine, life and medical insurance, written to help you ask better questions.",
         "href": "/resources"
       },
       {
         "title": "Speak with us",
-        "body": "Tell us what has changed, what concerns you and what you need to protect.",
+        "body": "Tell us what has changed, what concerns you and what you need to protect. Your next step starts with a conversation.",
         "href": "/contact"
       }
     ],
@@ -164,7 +165,33 @@
       "property-all-risks",
       "marine-insurance-questions",
       "term-vs-whole-life"
-    ]
+    ],
+    "feature": {
+      "heading": "Clarity for the road ahead.",
+      "body": "Good advice starts with a conversation. We bring your priorities and the policy detail together, so you can approach the next decision with a clearer view."
+    },
+    "commitments": {
+      "heading": "Personal attention. A considered approach.",
+      "body": "The principles that guide each conversation, from your first enquiry to the questions that follow.",
+      "items": [
+        {
+          "title": "Listen carefully",
+          "body": "Start with your circumstances."
+        },
+        {
+          "title": "Look at the detail",
+          "body": "Bring policy terms into focus."
+        },
+        {
+          "title": "Connect the picture",
+          "body": "Consider your needs together."
+        },
+        {
+          "title": "Keep in touch",
+          "body": "Revisit cover as things change."
+        }
+      ]
+    }
   },
   "about": {
     "hero": {

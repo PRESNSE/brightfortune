@@ -1,3 +1,5 @@
+> Historical baseline report from the first implementation. Its visual screenshots and mobile-spec assertions do NOT validate the current correction. See `qa/VISUAL_REPORT.md` for current results.
+
 # QA report — Bright Fortune draft site
 Date: 2026-10-12 · Build: Next 16.4.0 / React 19.3 / Node 22 · Environment: Linux container, Chromium (Playwright 1.64) headless.
 Raw output: `qa/results/{checks,ui,console}.txt`; screenshots: `qa/screenshots/`. Reproduce: `npm ci && npm run qa:serve && npm run qa:checks && npm run qa:ui`.

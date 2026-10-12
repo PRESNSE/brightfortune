@@ -1,6 +1,7 @@
 // Focused acceptance checks. Needs three running servers (see QA_REPORT.md): 3100 preview, 3101 mock-live form, 3102 public fixture.
 import http from 'node:http';
 import fs from 'node:fs';
+const previewPort = Number(process.env.PREVIEW_PORT ?? 3100);
 const routes = JSON.parse(fs.readFileSync('content/routes.json', 'utf8'));
 const results = [];
 const ok = (name, pass, detail = '') => { results.push({ name, pass }); console.log(`${pass ? 'PASS' : 'FAIL'}  ${name}${detail ? ' — ' + detail : ''}`); };
@@ -18,7 +19,7 @@ const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, 
 
 // 1. Routes (preview)
 for (const r of routes) {
-  const res = await req(3100, r.path);
+  const res = await req(previewPort, r.path);
   const h = res.text;
   const h1 = (strip(h).match(/<h1[\s>]/g) || []).length;
   const mainText = strip(h);
@@ -30,32 +31,38 @@ for (const r of routes) {
 const titles = new Set(routes.map((r) => r.title)); ok('titles unique', titles.size === routes.length);
 
 // 2. 404s + redirects
-for (const p of ['/insights/nonexistent-guide-test', '/what-we-do/nonexistent', '/nope', '/resources/x']) ok(`404 ${p}`, (await req(3100, p)).status === 404);
-for (const [from, to] of [['/main.htm', '/'], ['/aboutus.htm', '/who-we-are']]) { const r = await req(3100, from); ok(`redirect ${from}`, [301, 308].includes(r.status) && r.headers.location === to, `${r.status} -> ${r.headers.location}`); }
+for (const p of ['/insights/nonexistent-guide-test', '/what-we-do/nonexistent', '/nope', '/resources/x']) ok(`404 ${p}`, (await req(previewPort, p)).status === 404);
+for (const [from, to] of [['/main.htm', '/'], ['/aboutus.htm', '/who-we-are']]) { const r = await req(previewPort, from); ok(`redirect ${from}`, [301, 308].includes(r.status) && r.headers.location === to, `${r.status} -> ${r.headers.location}`); }
 
 // 3. Link integrity
 const seen = new Set(routes.map((r) => r.path)); const bad = [];
 for (const r of routes) {
-  const h = (await req(3100, r.path)).text;
+  const h = (await req(previewPort, r.path)).text;
   for (const m of h.matchAll(/href="(\/[^"#?]*)(?:[?#][^"]*)?"/g)) {
     const p = m[1].replace(/\/$/, '') || '/';
     if (/^\/(_next|images|fonts)/.test(p) || p === '/robots.txt' || p === '/sitemap.xml' || seen.has(p)) continue;
-    const st = (await req(3100, p)).status; seen.add(p); if (st >= 400 && st !== 308) bad.push(p + ':' + st); else if (st === 308) seen.add(p);
+    const st = (await req(previewPort, p)).status; seen.add(p); if (st >= 400 && st !== 308) bad.push(p + ':' + st); else if (st === 308) seen.add(p);
   }
   if (/href=""|href="#"|mailto:#/.test(h)) bad.push('empty href on ' + r.path);
 }
 ok('internal links resolve, no empty hrefs', bad.length === 0, bad.join(', '));
 
 // 4. Preview SEO
-const rb = await req(3100, '/robots.txt'); ok('robots.txt allows crawl, no sitemap in preview', /Allow: \//.test(rb.text) && !/Sitemap:/.test(rb.text) && !/Disallow: \/\s/.test(rb.text));
-const sm = await req(3100, '/sitemap.xml'); ok('preview sitemap empty', !/<url>/.test(sm.text), sm.text.slice(0, 120));
-ok('no JSON-LD in preview', !/application\/ld\+json/.test((await req(3100, '/')).text));
-ok('no canonical in preview', !/rel="canonical"/.test((await req(3100, '/')).text));
+const rb = await req(previewPort, '/robots.txt'); ok('robots.txt allows crawl, no sitemap in preview', /Allow: \//.test(rb.text) && !/Sitemap:/.test(rb.text) && !/Disallow: \/\s/.test(rb.text));
+const sm = await req(previewPort, '/sitemap.xml'); ok('preview sitemap empty', !/<url>/.test(sm.text), sm.text.slice(0, 120));
+ok('no JSON-LD in preview', !/application\/ld\+json/.test((await req(previewPort, '/')).text));
+ok('no canonical in preview', !/rel="canonical"/.test((await req(previewPort, '/')).text));
 
 // 5. Preview form API
 const post = (port, b, h = {}) => req(port, '/api/enquiry', { method: 'POST', headers: { 'content-type': 'application/json', 'x-forwarded-for': '10.0.0.1', origin: `http://localhost:${port}`, ...h }, body: JSON.stringify(b) });
 const valid = { firstName: 'Test', lastName: '', email: 'a@b.co', phone: '', topic: 'marine', company: '', message: 'A sufficiently long test message', privacyAcknowledged: true, website: '', requestId: '11111111-2222-3333-4444-555555555555' };
-let r = await post(3100, valid); ok('preview API -> 503 PREVIEW_DISABLED', r.status === 503 && /PREVIEW_DISABLED/.test(r.text) && /no-store/.test(r.headers['cache-control']));
+let r = await post(previewPort, valid); ok('preview API -> 503 PREVIEW_DISABLED', r.status === 503 && /PREVIEW_DISABLED/.test(r.text) && /no-store/.test(r.headers['cache-control']));
+
+if (process.argv.includes('--preview-only')) {
+  const failed = results.filter(r => !r.pass);
+  console.log(`Preview checks: ${results.length - failed.length}/${results.length} passed`);
+  process.exit(failed.length ? 1 : 0);
+}
 
 // 6. Mock live API contract
 r = await post(3101, valid); ok('live accepted 200 + reference', r.status === 200 && /"reference":"BF-/.test(r.text));

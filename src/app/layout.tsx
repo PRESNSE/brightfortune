@@ -5,6 +5,7 @@ import { Header } from '@/components/Header';
 import { getRelease } from '@/lib/release';
 import '@/styles/tokens.css';
 import '@/styles/site.css';
+import '@/styles/home.css';
 
 export function generateMetadata(): Metadata {
   const { origin, publicReady } = getRelease();

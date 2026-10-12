@@ -11,9 +11,9 @@ export function HomeHero({ hero }: { hero: { titleParts: string[]; intro: string
   return (
     <section id="H01" className="hero dark" aria-labelledby="home-title">
       <div className="hero-media" aria-hidden="true">
-        <Photo id="harbour" sizes="34vw" priority decorative />
+        <Photo id="conversation" sizes="34vw" priority decorative />
         <Photo id="architecture" sizes="34vw" priority decorative />
-        <Photo id="workplace" sizes="34vw" priority decorative />
+        <Photo id="collaboration" sizes="34vw" priority decorative />
       </div>
       <div className="hero-inner">
         <h1 id="home-title"><span>{a}</span>{' '}<span className="rule" aria-hidden="true" />{' '}<span><Punct text={b} /></span></h1>
@@ -48,7 +48,7 @@ export function NumberedSolutions({ cards }: { cards: { title: string; body: str
               <h3><Link href={c.href} className="stretch">{c.title}</Link></h3>
               <p>{c.body}</p>
               {c.secondaryHref && <Link className="second" href={c.secondaryHref}>Medical &amp; dental insurance</Link>}
-              <span className="go linkarrow" aria-hidden="true">Explore <Arrow /></span>
+              <span className="go pill" aria-hidden="true">Explore our solutions <Arrow /></span>
             </li>
           ))}
         </ol>
@@ -58,12 +58,16 @@ export function NumberedSolutions({ cards }: { cards: { title: string; body: str
 }
 
 export function DiscoverGrid({ items }: { items: { title: string; body: string; href: string }[] }) {
+  const images: AssetId[] = ['conversation', 'life', 'collaboration', 'harbour'];
+  const labels = ['Who we are', 'Our process', 'Explore the guides', 'Let’s talk'];
   return (
-    <section id="H09" className="pad">
-      <div className="container grid2">
-        {items.map((d) => (
-          <Link key={d.title} href={d.href} className="disc"><h3>{d.title}</h3><p>{d.body}</p><span className="arrow" aria-hidden="true">→</span></Link>
-        ))}
+    <section id="H09" className="discovery">
+      <div className="container"><Title text="Discover more." /></div>
+      <div className="discovery-puzzle">
+        {items.map((d, i) => <div className={`discovery-pair pair-${i + 1}`} key={d.title}>
+          <div className="discovery-photo"><Photo id={images[i]} sizes="(max-width:767px) 100vw, (max-width:1099px) 50vw, 25vw" decorative /></div>
+          <Link href={d.href} className="disc"><h3>{d.title}.</h3><p>{d.body}</p><span className="pill">{labels[i]}<Arrow /></span></Link>
+        </div>)}
       </div>
     </section>
   );
@@ -111,7 +115,12 @@ export function ServiceHero({ id, crumbs, title, intro, asset, cta, alt }: {
           <p className="lede">{intro}</p>
           <Pill href={cta.href} className="solid">{cta.label}</Pill>
         </div>
-        <div className="ph"><Photo id={asset} sizes="(max-width:899px) 100vw, 55vw" priority alt={alt} decorative={!alt} /></div>
+        <div className="service-puzzle" aria-label="Insurance for your business and your life">
+          <div className="puzzle-colour" aria-hidden="true" />
+          <div className="puzzle-photo"><Photo id={asset} sizes="(max-width:899px) 50vw, 25vw" priority alt={alt} decorative={!alt} /></div>
+          <div className="puzzle-photo"><Photo id="conversation" sizes="(max-width:899px) 50vw, 25vw" decorative /></div>
+          <div className="puzzle-colour" aria-hidden="true" />
+        </div>
       </div>
     </section>
   );
@@ -139,7 +148,7 @@ export function ImageHero({ id, crumbs, title, intro, asset }: { id?: string; cr
       <div className="container">
         <Crumbs items={crumbs} />
         <Title as="h1" text={title} />
-        <p className="lede">{intro}</p>
+        <div className="ihero-panel"><p>{intro}</p></div>
       </div>
     </section>
   );

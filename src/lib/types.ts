@@ -1,6 +1,6 @@
 export type ServiceSlug = 'commercial-general' | 'property-fire' | 'marine' | 'life-protection' | 'medical-dental';
 export type Topic = ServiceSlug | 'claims' | 'other';
-export type AssetId = 'harbour' | 'architecture' | 'marine' | 'workplace' | 'life' | 'health';
+export type AssetId = 'harbour' | 'architecture' | 'marine' | 'workplace' | 'life' | 'health' | 'collaboration' | 'conversation';
 export interface TextItem { title: string; body: string }
 export interface Faq { question: string; answer: string }
 export interface Service {
