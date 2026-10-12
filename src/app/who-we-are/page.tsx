@@ -1,4 +1,4 @@
-import { ImageHero, TextHero } from '@/components/sections';
+import { ImageHero } from '@/components/sections';
 import { ContactCTA, Split, Title } from '@/components/ui';
 import { Photo } from '@/components/ui';
 import { LdJson } from '@/components/LdJson';
@@ -13,7 +13,7 @@ export default function About() {
   return (
     <>
       <LdJson path="/who-we-are" crumbs={[{ label: 'Home', path: '/' }, { label: 'Who we are', path: '/who-we-are' }]} />
-      <ImageHero id="A01" crumbs={crumbs} title={a.hero.title} intro={a.hero.intro} asset="harbour" />
+      <ImageHero id="A01" crumbs={crumbs} title={a.hero.title} intro={a.hero.intro} asset="conversation" />
       <Split id="A02" heading={a.story.heading} paragraphs={a.story.paragraphs} asset="workplace" side="left" />
       <section id="A03" className="pad">
         <div className="container">

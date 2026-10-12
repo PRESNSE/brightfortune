@@ -1,4 +1,8 @@
 # Execution instructions — Bright Fortune
+
+## Visual correction authority (12 October 2026)
+Read `docs/VISUAL_FIDELITY.md` first for visual work. The user explicitly requested a closer reconstruction after the first build. That measured reference and the current implementation supersede the approximate HTML mockup, original blueprint, and older visual assumptions below. Inspect the actual BMS reference when a measurement is missing; do not guess or regress to generic cards. Preserve the existing functional and launch controls.
+
 Implement the complete website described by this pack. Do not stop at a plan, skeleton, homepage or design proposal. The user has already chosen the architecture and reference direction.
 
 ## Read once in this order
@@ -17,6 +21,6 @@ Public launch is controlled by launch-config and environment, not NODE_ENV alone
 
 Inspect package.json, lockfile and existing instructions once. Reuse established dependencies; otherwise resolve supported stable versions once, record exact versions in lockfile, and use Node 22 LTS (or a newer supported LTS already pinned by repo). Do not install an unverified historical patch from this document.
 
-Do not repeat external discovery, competitor crawling or keyword research. A focused official-doc check is permitted to resolve a real build/API failure. Keep build/test checks necessary to avoid shipping broken routes, false form success or accidental indexing. Never claim tests passed if not run.
+Do not repeat broad keyword research. Focused BMS page inspection and matched-viewport visual comparisons are required for fidelity corrections. A focused official-doc check is permitted to resolve a real build/API failure. Keep build/test checks necessary to avoid shipping broken routes, false form success or accidental indexing. Never claim tests passed if not run.
 
 Priority if time becomes tight: all routes/content, navigation and form truthfulness, responsive visual system, metadata, then subtle animation. Do not trade away content or mobile usability for decorative effects. Write PROGRESS.md after each stage with exact files, completed checks and next command so a later session can resume without re-planning.

@@ -1,3 +1,5 @@
+> Superseded for visual work by `docs/VISUAL_FIDELITY.md` and the current source. Do not use the old design mockup as the visual authority.
+
 Implement the entire Bright Fortune website from this repository's implementation pack now.
 
 Read CLAUDE.md and follow its reading order. Treat the PRD, supplied copy/data, route registry, design tokens, page compositions, UX specification and SEO/form contracts as the completed plan. Do not ask me to choose a stack, rewrite copy, approve a wireframe, source stock imagery or repeat the competitor research. Resolve routine implementation details yourself within these specifications.

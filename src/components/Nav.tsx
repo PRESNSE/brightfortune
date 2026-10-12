@@ -81,9 +81,10 @@ export function Nav({ services, contactHref }: Props) {
       <nav className="nav-desktop" aria-label="Primary" ref={navRef} onMouseEnter={clearTimer} onMouseLeave={hoverClose}>
         <Link href="/who-we-are" className="nav-link" aria-current={cur('/who-we-are')}>Who we are</Link>
         {item('services', 'What we do', '/what-we-do')}
-        {item('resources', 'Insights & Resources', '/insights')}
+        {item('resources', 'Insights', '/insights')}
+        <Link href="/resources" className="nav-link" aria-current={cur('/resources')}>Resources</Link>
         <Link href="/claims" className="nav-link" aria-current={cur('/claims')}>Claims</Link>
-        <Link href={contactHref} className="pill nav-cta" aria-current={cur('/contact')}>Speak with us</Link>
+        <Link href={contactHref} className="nav-link nav-contact" aria-current={cur('/contact')}>Contact</Link>
 
         <div id="panel-services" className="mega" data-open={panel === 'services'} hidden={panel !== 'services'} onMouseEnter={clearTimer} onMouseLeave={hoverClose}>
           <div className="mega-inner">

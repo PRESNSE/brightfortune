@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { CapsulePhrase } from './CapsulePhrase';
 import type { ReactNode } from 'react';
 import { assets } from '@/lib/assets';
 import type { AssetId } from '@/lib/types';
@@ -14,14 +15,14 @@ export function splitPunct(text: string): [string, string] {
 }
 export function Punct({ text }: { text: string }) {
   const [body, p] = splitPunct(text);
-  return (<>{body}{p && <span className="dot" aria-hidden="true">{p}</span>}</>);
+  return (<>{body}{p && <span className={p === '.' ? 'dot square-dot' : 'dot'} aria-hidden="true">{p}</span>}</>);
 }
 type Tag = 'h1' | 'h2' | 'h3';
 export function Title({ as: Tag = 'h2', text, className, id }: { as?: Tag; text: string; className?: string; id?: string }) {
   const [body, p] = splitPunct(text);
   return (
     <Tag className={className} id={id}>
-      {body}{p && <><span className="dot" aria-hidden="true">{p}</span></>}
+      {body}{p && <><span className={p === '.' ? 'dot square-dot' : 'dot'} aria-hidden="true">{p}</span></>}
     </Tag>
   );
 }
@@ -79,7 +80,7 @@ export function Split({ id, heading, paragraphs, asset, side = 'left', variant =
   cta?: { label: string; href: string }; tone?: string; textFirstOnMobile?: boolean; mediaAlt?: string; extra?: ReactNode;
 }) {
   const media = variant === 'capsule'
-    ? <div className="media"><div className="cap"><Photo id={asset} sizes="(max-width:899px) 280px, 360px" alt={mediaAlt} /></div></div>
+    ? <div className="media"><div className="capsule-wrap"><div className="cap"><Photo id={asset} sizes="(max-width:899px) 280px, 360px" alt={mediaAlt} /></div><CapsulePhrase id={id ?? asset} /></div></div>
     : <div className="media"><Photo id={asset} sizes="(max-width:899px) 100vw, 50vw" alt={mediaAlt} /></div>;
   return (
     <section id={id} className={`split ${variant} ${side === 'right' ? 'right' : ''} ${textFirstOnMobile ? 'text-first' : ''} ${tone}`}>

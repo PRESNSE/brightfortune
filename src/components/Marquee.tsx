@@ -6,7 +6,7 @@ export function Marquee({ items }: { items: string[] }) {
   const half = Math.ceil(items.length / 2);
   const rows = [items, [...items.slice(half), ...items.slice(0, half)]];
   return (
-    <section id="H08" className={`marquee dark${paused ? ' paused' : ''}`} aria-label="Areas of expertise">
+    <section id="H08" className={`marquee${paused ? ' paused' : ''}`} aria-label="Areas of expertise">
       <div className="container sr-only"><ul>{items.map((i) => <li key={i}>{i}</li>)}</ul></div>
       {rows.map((row, r) => (
         <div key={r} className={`m-row${r === 1 ? ' rev dup' : ''}`} aria-hidden={r === 1 ? true : undefined}>

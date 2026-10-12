@@ -1,6 +1,7 @@
 import { GuideCards, DiscoverGrid, FactTiles, HomeHero, NumberedSolutions } from '@/components/sections';
 import { Marquee } from '@/components/Marquee';
-import { SectionIntro, Split } from '@/components/ui';
+import { Split } from '@/components/ui';
+import { BrandFeature, Commitments, EditorialIntro, HomeLocation } from '@/components/HomeEditorial';
 import { LdJson } from '@/components/LdJson';
 import { articles, site, toCard } from '@/lib/content';
 import { getRelease, isApproved } from '@/lib/release';
@@ -18,15 +19,17 @@ export default function Home() {
     <>
       <LdJson path="/" />
       <HomeHero hero={h.hero} />
-      <Split id="H02" variant="capsule" heading={h.intro.heading} paragraphs={h.intro.paragraphs} asset="workplace" side="left" />
+      <Split id="H02" variant="capsule" heading={h.intro.heading} paragraphs={h.intro.paragraphs} asset="conversation" side="left" />
       {facts.length > 0 && <FactTiles facts={facts} />}
-      <Split id="H04" heading={h.statement.heading} paragraphs={h.statement.paragraphs} asset="architecture" side="right" />
-      <Split id="H05" heading={h.location.heading} paragraphs={h.location.paragraphs} asset="harbour" side="left" cta={h.location.cta} tone="loc" />
-      <SectionIntro id="H06" heading={h.solutionsIntro.heading} paragraphs={h.solutionsIntro.paragraphs} />
+      <Split id="H04" heading={h.statement.heading} paragraphs={h.statement.paragraphs} asset="collaboration" side="right" />
+      <HomeLocation />
+      <EditorialIntro id="H06" heading={h.solutionsIntro.heading} paragraphs={h.solutionsIntro.paragraphs} cta={{ label: 'What we do', href: '/what-we-do' }} />
       <NumberedSolutions cards={h.numberedCards} />
+      <BrandFeature />
       <Marquee items={h.marquee} />
       <DiscoverGrid items={h.discover} />
-      <GuideCards id="H10" heading="Guides to start with." items={guides} cols="three" />
+      <Commitments />
+      <GuideCards id="H10" heading="Insights & resources." intro="A clearer view of the questions that matter." items={guides} cols="three" />
     </>
   );
 }

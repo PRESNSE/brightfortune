@@ -1,3 +1,5 @@
+> Visual values below are the original adaptation. For the 12 October fidelity correction, `docs/VISUAL_FIDELITY.md` and `src/styles/` supersede conflicting dimensions, components and visual priorities.
+
 # Visual system — authoritative revision
 ## Observed vs specified
 Live BMS desktop homepage inspected at approximately 1348×926 viewport on 12 October 2026 HKT. Observed: white sticky navigation; central triptych media hero; Figtree; hero computed 144px / 149.76px / 500; section H2 72px / 83.52px / 500; ink rgb(33,55,82); orange terminal punctuation; pale neutral splits; capsule-cropped editorial media and curved coloured fact tiles. The complete responsive system below is a deliberate Bright Fortune implementation, not recovered BMS source. Header menus, mobile breakpoints and exact animation timelines have not been measured on BMS.
