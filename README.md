@@ -37,3 +37,12 @@ The content fills service gaps with original, useful explanations and concrete e
 
 ## Preview and public release
 Default: private preview, noindex, no live form submission, full draft copy. Public release requires a confirmed canonical domain, contact information, regulatory statement, privacy/legal review, approved assets and a tested contact route. These are finite factual/configuration inputs, not another website-planning exercise. Off-page listings, earned links and Search Console ownership require account work after implementation.
+
+## Token-efficient session habits
+- Start each session by reading `PROGRESS.md` (if present), then only the files `CLAUDE.md` lists for the current stage; skip `references/` and appendices unless a task needs them.
+- Build in the order of `docs/BUILD_SEQUENCE.md`; finish a stage, run its focused check, update `PROGRESS.md` (files touched, checks run, next command), then commit.
+- Read files by range or grep rather than whole-file dumps; never re-read a file you just edited.
+- Batch independent tool calls; use `scripts/validate-pack.py` and one `build`/`lint`/`typecheck` run per stage, not per edit.
+- Reuse `starter/` selectors and `content/*.json` instead of re-deriving data; do not repeat research or competitor crawling.
+- Keep chat replies short: report outcomes and the next command, not file contents.
+- Start a fresh session between major stages; `PROGRESS.md` carries the state.
